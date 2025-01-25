@@ -105,3 +105,21 @@ input.error {
   display: flex;
   gap:1rem
 }
+
+
+nav button {
+  background-color: white;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
+}
+
+nav{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
